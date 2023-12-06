@@ -1,0 +1,3 @@
+Fries,2,True
+Hamburger,5,True
+Drink,3,True
