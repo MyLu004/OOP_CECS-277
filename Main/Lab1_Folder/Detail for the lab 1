@@ -1,0 +1,15 @@
+Guessing Game
+Have the computer generate a random number between 1 and 100, then prompt the user to guess a number between 1 and 100. Test that the user’s input is an integer within the range, if it isn’t, tell them that it is invalid and allow them to continue guessing. Compare the user’s number to the computer’s number, if the user’s number is lower than the computer’s, tell them that it is too low, if it is higher, tell them that it is too high. Repeat until the user guesses the correct value. Keep count of the number of guesses and display it when the user wins (exclude invalid entries).
+
+Example Output (user input is in italics):
+
+- Guessing Game –
+I’m thinking of a number. Make a guess (1-100): 50 Too low! Guess again (1-100): 75
+Too low! Guess again (1-100): -1
+Invalid input – should be within range 1-100. Guess again (1-100): a
+Invalid input – should be an integer.
+Guess again (1-100): 95
+Too high! Guess again (1-100): 90
+Too high! Guess again (1-100): 80
+Too low! Guess again (1-100): 85
+Correct! You got it in 6 tries.
