@@ -101,7 +101,7 @@ if __name__ == "__main__":
                 checking_location[1] = checking_location[1] - 1
                 myVal = checking_area(checking_location)
 
-        elif myHeroChoice == 5: #GO WEST [y,x-1] | LEFT
+        elif myHeroChoice == 5: #QUIT THE GAME
             myVal = "#"
             game_cond = False
 
