@@ -1,4 +1,7 @@
 
+#State: a behavioral design pattern that lats an object alter its behavior when its internal state changes.
+# Like Finite-State Machine
+
 import radio
 
 def main():
