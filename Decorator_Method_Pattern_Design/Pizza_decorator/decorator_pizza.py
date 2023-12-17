@@ -1,7 +1,9 @@
 import pizza
 import abc
 
-
+#the abstract decorator class: which implement the component interface and override its methods.
+#These act as the base objects that are then decorated
+#   The decorator's overridden methods are then called on this object
 #act as the pointer
 class Decorator(pizza.Pizza, abc.ABC):
     def __init__(self,p):

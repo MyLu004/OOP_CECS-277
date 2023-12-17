@@ -6,8 +6,8 @@
 #   size [component / base]
 #   topic [decoration]
 
-#   the component interface: with methods that the base objects need to override its methods. These act as the base object
-#   are then decorated
+#   the component interface: with methods that the base objects need to override its methods.
+#   These act as the base object are then decorated
 import abc
 
 class Pizza(abc.ABC):

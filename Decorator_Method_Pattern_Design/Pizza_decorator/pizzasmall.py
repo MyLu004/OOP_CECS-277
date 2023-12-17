@@ -1,5 +1,7 @@
 #small pizza
 #concrete component [obj]
+#which implement the component interface and override its methods.
+#These act as the base objects that are then decorated
 
 import pizza
 
