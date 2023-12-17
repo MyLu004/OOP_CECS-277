@@ -4,6 +4,7 @@ import pepperoni
 import mushroom
 
 def main():
+    #creating the pizzasmall instance
     myPizza = pizzasmall.PizzaSmall()
     myPizza = mushroom.Mushroom(myPizza)
     myPizza = pepperoni.Pepperoni(myPizza)
