@@ -9,9 +9,6 @@ class Decorator(pizza.Pizza, abc.ABC):
     def __init__(self,p):
         self._pizza = p #set init as the instance type for the object you just created
 
-    # def get_price(self): #storing the next layers
-    #     return self._pizza.get_price()
-
     def get_price(self):
         return self._pizza.get_price()
 
